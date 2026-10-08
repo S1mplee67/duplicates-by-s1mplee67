@@ -1,0 +1,23 @@
+# Build and binary files
+*.obj
+*.pdb
+*.ilk
+*.cache
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Test output directories
+test_album/
+temp/

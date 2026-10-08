@@ -14,7 +14,7 @@
 
 ---
 
-## 💡 About The Project
+##  About The Project
 
 Inspired by the clean, intuitive **Similar Photos Cleaner** found on modern smartphones (like Vivo Gallery), **Duplicates by S1mplee67** brings that same experience to your Windows laptop or desktop—completely offline, with zero external dependencies and zero tracking.
 
@@ -26,41 +26,41 @@ Unlike ordinary file finders that only look at identical file names or file size
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- **🧠 Multi-Stage Perceptual Pixel Hashing:**
+- ** Multi-Stage Perceptual Pixel Hashing:**
   - **Horizontal & Vertical Difference Hash (128-bit dHash):** Analyzes structural brightness gradients across pixels.
   - **Average Luminance Hash (64-bit aHash):** Analyzes overall scene lighting.
   - **16-Cell RGB Color Matrix:** Compares chromatic color distribution to prevent false positives between scenes with similar layouts but totally different colors.
   - **MD5 Checksum:** Instantly catches bit-for-bit identical duplicate files.
 
-- **📁 Mode 1: Whole Album Cleaner (Vivo Style):**
+- ** Mode 1: Whole Album Cleaner (Vivo Style):**
   - Select any folder or album (e.g. Pictures, Downloads, Camera Roll).
   - Scans and groups all similar/duplicate photos chronologically by **Date** (`September 2, 2026`, `August 20, 2026`, etc.).
   - Shows dynamic stats: e.g. `295 similar photos in total, using 416 MB (reclaimable: ~210 MB)`.
 
-- **🎯 Mode 2: Targeted Reference Photo Search:**
+- ** Mode 2: Targeted Reference Photo Search:**
   - Pick **1 or 2 reference photos** (via file picker or drag & drop).
   - Search across any target folder to find all matches, ranked by visual similarity percentage!
 
-- **⚡ 1-Click Smart Auto-Selection:**
-  - Click **"⚡ Auto-Select (Keep Best)"** to automatically preserve the highest resolution and highest quality photo in each group while selecting the duplicate copies for deletion.
+- ** 1-Click Smart Auto-Selection:**
+  - Click **" Auto-Select (Keep Best)"** to automatically preserve the highest resolution and highest quality photo in each group while selecting the duplicate copies for deletion.
 
-- **🔍 Fullscreen Side-by-Side Inspector (`⤢` button):**
+- ** Fullscreen Side-by-Side Inspector (`⤢` button):**
   - Double-click or expand any image to view both photos side-by-side in high resolution.
   - Compares exact capture date, resolution, file size, and file path.
   - Quick action buttons: *"Keep Left"*, *"Keep Right"*, or *"Delete Both"*.
 
-- **🛡️ Safe Offline Deletion:**
+- ** Safe Offline Deletion:**
   - By default, moves deleted files to the **Windows Recycle Bin**, allowing you to restore them anytime.
   - Can be toggled for permanent deletion if desired.
 
-- **🔒 100% Offline & Private:**
+- ** 100% Offline & Private:**
   - Zero internet calls, zero telemetry. Your photos never leave your computer.
 
 ---
 
-## 🚀 Quick Start / Download
+##  Quick Start / Download
 
 ### Running the App:
 1. Go to the [**Releases**](../../releases) tab on GitHub and download `Duplicates-by-S1mplee67.exe` (or clone the repository).
@@ -70,7 +70,7 @@ Unlike ordinary file finders that only look at identical file names or file size
 
 ---
 
-## 🛠️ Building From Source
+##  Building From Source
 
 This project has **zero third-party dependencies** and can be compiled on any Windows PC using the built-in Windows C# compiler:
 
@@ -89,7 +89,7 @@ This project has **zero third-party dependencies** and can be compiled on any Wi
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 duplicates/
